@@ -1,0 +1,27 @@
+.header {
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 90vw) / 2);
+  margin-top: 0;
+}
+.header nav {
+  margin-top: 0;
+}
+a.navlink {
+  color: #222;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0 0.5rem 0 0;
+  padding: 0.25rem;
+  text-decoration: none;
+}
+a.navlink--bold {
+  font-weight: bold;
+}
+.current-page {
+  border-bottom: 1px solid black;;
+}
