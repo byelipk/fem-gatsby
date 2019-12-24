@@ -12,7 +12,7 @@ export default () => {
     <React.Fragment>
       <Layout>
         <Hero />
-        <h2>Read my blog</h2>
+        <h2>Read my Award Winning Blog</h2>
         {posts.map((post, idx) => (
           <PostPreview key={idx} post={post} />
         ))}
